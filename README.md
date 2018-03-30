@@ -14,6 +14,11 @@ This repo a collection of core CS algorithms and their time complexities to shar
 
 ### Sorting Algorithms
 
+* Insertion Sort
+* Selection Sort
+* Merge Sort
+* Buble Sort
+* Quick Sort
 </br>
 
 ### Recursion

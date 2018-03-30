@@ -1,5 +1,4 @@
-# Algorithms
-</br>
+# Algorithms</br>
 
 ## Overview : 
 </br>

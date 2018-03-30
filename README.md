@@ -1,5 +1,6 @@
-# Algorithms By Medi W. Assumani</br>
+# Algorithms </br>
 
+#### Programmer : Medi W. Assumani
 ## Overview : 
 </br>
 This repo a collection of core CS algorithms and their time complexities to sharpen my critical thinking skills. I implement them using my main programming languages(Java,Swift, Python,and C++).This main purpose of this repo is to study and practice.

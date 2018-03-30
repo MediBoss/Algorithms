@@ -8,9 +8,15 @@ This repo a collection of core CS algorithms and their time complexities to shar
 
 ### Searching Algorithms
 
+* Linear Search 
+* Binary Search
+
+
 ### Sorting Algorithms
 
 </br>
+
+### Recursion
 
 ## Languages Used : 
 

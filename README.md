@@ -19,7 +19,7 @@ This repo a collection of core CS algorithms and their time complexities to shar
 * Merge Sort
 * Buble Sort
 * Quick Sort
-</br>
+
 ### Recursion
 
 ## Languages Used : 

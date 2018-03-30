@@ -11,6 +11,11 @@ This repo a collection of core CS algorithms and their time complexities to shar
 ### Sorting Algorithms
 
 </br>
-## Languages Used : 
 
+## Languages Used : 
+</br>
+* Java
+* Python
+* Swift
+* C++
 

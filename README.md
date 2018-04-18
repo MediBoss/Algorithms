@@ -18,7 +18,7 @@ This repo is a collection of core Computer Science algorithms and their time com
 * Insertion Sort
 * Selection Sort
 * Merge Sort
-* Buble Sort
+* Bubble Sort
 * Quick Sort
 
 ### Recursion

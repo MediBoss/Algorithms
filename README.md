@@ -27,6 +27,4 @@ This repo is a collection of core Computer Science algorithms and their time com
 
 * Java
 * Python
-* Swift
-* C++
 

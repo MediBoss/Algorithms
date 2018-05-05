@@ -20,6 +20,7 @@ This repo is a collection of core Computer Science algorithms and their time com
 * Merge Sort
 * Bubble Sort
 * Quick Sort
+* Heap Sort
 
 ### Recursion
 

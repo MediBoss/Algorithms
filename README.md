@@ -9,7 +9,7 @@ This repo is a collection of core Computer Science algorithms and their time com
 
 ### Searching Algorithms
 
-* <a hrf = "https://github.com/MediBoss/Algorithms/tree/master/Linear-Search" >Linear Search </a>
+* <a href = "https://github.com/MediBoss/Algorithms/tree/master/Linear-Search" >Linear Search </a>
 * Binary Search
 
 

@@ -9,13 +9,13 @@ This repo is a collection of core Computer Science algorithms and their time com
 
 ### Searching Algorithms
 
-* Linear Search 
+* <a hrf = "https://github.com/MediBoss/Algorithms/tree/master/Linear-Search" >Linear Search </a>
 * Binary Search
 
 
 ### Sorting Algorithms
 
-* <a hrf = "https://github.com/MediBoss/Algorithms/tree/master/Linear-Search">Insertion Sort</a>
+* Insertion Sort
 * Selection Sort
 * Merge Sort
 * Bubble Sort

@@ -1,4 +1,4 @@
-<img src = "https://kintali.files.wordpress.com/2012/09/algorithms_small_logo.png?w=660" width = 200 height = 400>
+![alt text](https://kintali.files.wordpress.com/2012/09/algorithms_small_logo.png?w=660 "Logo Title Text 1")
 
 # Algorithms </br>
 

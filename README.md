@@ -15,7 +15,7 @@ This repo is a collection of core Computer Science algorithms and their time com
 
 ### Sorting Algorithms
 
-* Insertion Sort
+* <a hrf = "https://github.com/MediBoss/Algorithms/tree/master/Linear-Search">Insertion Sort</a>
 * Selection Sort
 * Merge Sort
 * Bubble Sort

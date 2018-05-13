@@ -1,5 +1,11 @@
 # Programmer : Medi Assumani
 # Linear sort is commonly used for small range of data in a list since it parses the data one by one.
 
-def linear_search(key,list):
-    return [for item in list if item ]
+
+# Function to lineary look for item in list and returns its location
+def linear_search(list, item):
+
+    for index in range(len(list)):
+        if list[index] == item:
+            return index
+    return -1

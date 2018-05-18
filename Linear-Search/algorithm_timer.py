@@ -1,3 +1,5 @@
+# Module to assess the time it takes to perform a certain algorithm
+
 import time
 
 def timing_function(function_parameter):

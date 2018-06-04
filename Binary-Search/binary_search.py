@@ -2,7 +2,6 @@
 
 def binary_search(list,item):
     """
-
     @param list: The list of elements
     @param item: The element to be searched in the list
     Time complexity :
@@ -11,4 +10,5 @@ def binary_search(list,item):
 
     """
 
-    
+    low = 0
+    high = len(list)

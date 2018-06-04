@@ -16,3 +16,11 @@ def binary_search(list,item):
         middle = int((low + high)/2))
         if list[middle] == item:
             return middle
+
+        elif list[middle] > item:
+            high = middle - 1 # shifting the highest position to the next number lower than middle
+
+        else:
+            low = middle + 1 #shifting the lowest position to the next number bigger than the middle number
+
+    return "Item {} Not found in the List".format(item)

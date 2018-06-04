@@ -5,15 +5,15 @@ def binary_search(list,item):
     @param list: The list of elements
     @param item: The element to be searched in the list
     Time complexity :
-    Best Case Scenario : The list is sorted
-    Worst Case Scenario:
+    Best Case Scenario : item is in the middle of the list
+    Worst Case Scenario: item does not appear in the list at all
 
     """
 
     low = 0
     high = len(list)
     while low <= high:
-        middle = int((low + high)/2))
+        middle = int((low + high)/2)
         if list[middle] == item:
             return middle
 

@@ -4,8 +4,4 @@
 
 # Function to lineary look for item in list and returns its location or -1 if it's not found
 def linear_search(list, item):
-
-    for index in range(len(list)):
-        if list[index] == item:
-            return index
-    return -1
+    return (index for index in list if item == list[index])

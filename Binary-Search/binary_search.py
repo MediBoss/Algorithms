@@ -12,3 +12,7 @@ def binary_search(list,item):
 
     low = 0
     high = len(list)
+    while low <= high:
+        middle = int((low + high)/2))
+        if list[middle] == item:
+            return middle

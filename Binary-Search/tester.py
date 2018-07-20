@@ -14,8 +14,6 @@ print(tester())
 
 def main():
     tester()
-    # Output : when item is 10 : it took 5 seconds
-    # Ouput : when item is 64 : 3 seconds
 
 if __name__ == "__main__":
     main()

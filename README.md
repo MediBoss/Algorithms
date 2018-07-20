@@ -16,9 +16,9 @@ This repo is a collection of core Computer Science algorithms and their time com
 
 ### Sorting Algorithms
 
-* Insertion Sort
-* Selection Sort
-* Merge Sort
+* <a href = "https://github.com/MediBoss/Algorithms/tree/master/Insertion-Sort" >Insertion Sort</a>
+* <a href = "https://github.com/MediBoss/Algorithms/blob/master/Selection-Sort" >Selection Sort</a>
+* <a href = "https://github.com/MediBoss/Algorithms/tree/master/Merge-Sort" >Merge Sort</a>
 * Bubble Sort
 * Quick Sort
 * Heap Sort

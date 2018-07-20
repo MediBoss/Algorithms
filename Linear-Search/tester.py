@@ -17,7 +17,7 @@ def tester():
 print(tester())
 
 def main():
-    tester() # Output : It took 2.98023223877e-05 seconds to execute
+    tester()
 
 if __name__ == "__main__":
     main()

@@ -24,8 +24,6 @@ This repo is a collection of core Computer Science algorithms and their time com
 * Heap Sort
 * Binary Search Tree
 
-### Recursion
-
 ## Languages Used : 
 
 * Java

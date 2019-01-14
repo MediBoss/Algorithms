@@ -3,9 +3,15 @@
 # Worst Case scenario
 
 def insertion_sort(list):
-    current_position = list[0]
-    for index in list:
-        if list[current_position] > list[index]:
-            
 
-  
+    for i in range(1, len(list)):
+
+        current_element = list[i]
+        previous_index = i-1
+
+        # Shifts elements of list[0..i-1], that are greater than the current element to 1 up.
+        while previous_index >= 0 and current_element < list[previous_index]:
+            list[previous_index+1] = list[previous_index]
+            previous_index -= 1
+
+        list[previous_index+1] = current_element

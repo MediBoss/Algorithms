@@ -4,9 +4,8 @@ def binary_search(list,item):
     """
     @param list: The list of elements
     @param item: The element to be searched in the list
-    Time complexity :
-    Best Case Scenario : item is in the middle of the list
-    Worst Case Scenario: item does not appear in the list at all
+    Best Case Scenario : O(1) item is in the middle of the list
+    Worst Case Scenario: O(n) does not appear in the list at all
 
     """
 

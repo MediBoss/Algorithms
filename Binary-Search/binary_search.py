@@ -1,5 +1,6 @@
 # Binary Search : Search a sorted array by repeatedly dividing the search interval in half
 
+# Iterative binary serach
 def binary_search(list,item):
     """
     @param list: The list of elements
@@ -21,3 +22,25 @@ def binary_search(list,item):
             low = middle + 1 #shifting the lowest position to the next number bigger than the middle number
 
     return "Item {} Not found in the List".format(item)
+
+
+# Recursive Binary Search
+def recursive_binary_search(list, item):
+
+    # set low
+    low = 0
+    high = len(list)
+
+    if low <= high:
+        middle = int((low + high)/2)
+        if list[middle] == item:
+            return middle
+        elif list[middle] > item:
+            low = middle - 1
+            return recursive_binary_search(list[low:high], item)
+        else:
+            low = middle + 1
+            return recursive_binary_search(list[low:high], item)
+
+    else:
+        return -1

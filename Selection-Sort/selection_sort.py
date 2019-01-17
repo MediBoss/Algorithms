@@ -2,6 +2,7 @@
 # Worst Case : O(n) ^ 2 since we must traverse the entire list with 2 inner loops
 def selection_sort(arr):
 ''' Sort the elements in arr from left to right'''
+
     for i in range(len(arr)):
         for j in range(i+1, len(arr)):
             if arr[j] < arr[i]:

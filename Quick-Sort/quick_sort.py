@@ -27,14 +27,14 @@ def partition(unsorted_arr, first_index, last_index):
     return less_than_pivot_index
 
 
+def quick_sort(arr, first, last):
 
-
-def quick_sort(arr):
-    pass
-
-
-
-
+    if last - first <= 0:
+        return
+    else:
+        partition_point = partition(arr, first, last)
+        quick_sort(arr, first, partition_point-1)
+        quick_sort(arr,partition_point+1, last)
 
 
 '''

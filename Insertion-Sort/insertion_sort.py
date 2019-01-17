@@ -1,5 +1,5 @@
 # Insterion sort
-# Best Case Scenario : O(n) if the list is already sorted 
+# Best Case Scenario : O(n) if the list is already sorted
 # Worst Case scenario : O(n)^2
 
 def insertion_sort(list):

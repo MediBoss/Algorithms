@@ -1,47 +1,67 @@
-
-def partition(unsorted_arr, first_index, last_index):
+# O(n)^2 Worst Case
+def partition(arr, left, right, pivot):
     ''' Helper function to sort a chunk of unsorted array with a pivot'''
 
-    pivot_element = unsorted_arr[first_index]
-    pivot_index = first_index
-    index_of_last_element = last_index
-    greater_than_pivot_index = first_index + 1
-    less_than_pivot_index = index_of_last_element
+    # move from left to right simoultaneously
+    while left <= right:
+         # move left until you find an element that is bigger than the pivot
+        while arr[left] < pivot:
+             left += 1
 
-    while True:
+        # move right until you find an element that is smaller than the pivot
+        while arr[right] > pivot:
+            right -= 1
 
-        while unsorted_arr[greater_than_pivot_index] < pivot and greater_than_pivot_index < last_index:
-            greater_than_pivot_index += 1
+        if left <= right:
+            arr[left], arr[right] = arr[right], arr[left]
+            left += 1
+            right -= 1
 
-        while unsorted_arr[less_than_pivot_index] > pivot and less_than_pivot_index >= first_index:
-            less_than_pivot_index -= 1
-
-        if greater_than_pivot_index < less_than_pivot_index:
-            unsorted_arr[greater_than_pivot_index], unsorted_arr[less_than_pivot_index] = unsorted_arr[less_than_pivot_index], unsorted_arr[greater_than_pivot_index]
-        else:
-            break
-
-    unsorted_arr[pivot] = unsorted_arr[less_than_pivot_index]
-    unsorted_arr[less_than_pivot_index] = pivot
-
-    return less_than_pivot_index
+    return left
 
 
-def quick_sort(arr, first, last):
+def quick_sort(arr, left, right):
 
-    if last - first <= 0:
+    if left >= right:
         return
     else:
-        partition_point = partition(arr, first, last)
-        quick_sort(arr, first, partition_point-1)
-        quick_sort(arr,partition_point+1, last)
+        pivot = arr[(left+right)/2]
+        partition_point = partition(arr, left, right, pivot)
+        quick_sort(arr,left, partition_point-1)
+        quick_sort(arr,partition_point, right)
 
 
 '''
         ALGORITHM
         *********
 
+        Part I. Inside Quik Sort Funtion
+        ********************************
+
+        - Check if left is less or equla to right
+            - if so...
+                - return
+            - otherwise
+                - set the a pivot to the middle element of the list
+                - call the partition method with the array, the left, right, and pivot to get the partition point
+                - call the quicksort(recursive) on left elements
+                - call the quicksort(recursive) on right elements
 
 
+        Part II. Inside Partition Function
+        **********************************
 
+        - while left(index) is less than or equal to the right(index)
+            - move left until you find an element that is bigger than the pivot
+                - increment left by one each time the current left element is less than the pivot
+            - move right until you find an element that is smaller than the pivot
+                - increment left by one each time the current left element is less than the pivot
+
+            - check if left index is less or equall to right index
+                - if yes...
+                    - swap the values of arr at left with the one at right
+                    - increment left by one
+                    - decrement right by one
+
+        - return the dividing point between left and right side
 '''

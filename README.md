@@ -20,7 +20,7 @@ This repo is a collection of core Computer Science algorithms and their time com
 * <a href = "https://github.com/MediBoss/Algorithms/blob/master/Selection-Sort" >Selection Sort</a>
 * <a href = "https://github.com/MediBoss/Algorithms/tree/master/Merge-Sort" >Merge Sort</a>
 * Bubble Sort
-* Quick Sort
+* <a href = "https://github.com/MediBoss/Algorithms/tree/master/Quick-Sort" >Quick Sort</a>
 * Heap Sort
 * First Breadth Search
 * Binary Search Tree

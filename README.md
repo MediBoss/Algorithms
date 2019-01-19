@@ -22,7 +22,7 @@ This repo is a collection of core Computer Science algorithms and their time com
 * <a href = "https://github.com/MediBoss/Algorithms/tree/master/Quick-Sort" >Quick Sort</a>
 * Bubble Sort
 * Heap Sort
-* First Breadth Search
+* Breadth First Search
 * Depth First Search
 
 ## Language(s) Used : 

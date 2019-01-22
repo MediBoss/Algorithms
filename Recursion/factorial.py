@@ -2,8 +2,9 @@
 '''
     Factorial is the product of an integer and all the integers below it; e.g.
     factorial four (4!) is equal to 24.
-
+    Worst Case : O(n) Linear
 '''
+
 def factorial(number):
 
     # Base case - tells the recursion when to terminate

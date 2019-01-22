@@ -1,7 +1,4 @@
 from selection_sort import selection_sort
-from selection_sort import find_smallest
-
-
 
 def main():
 
@@ -9,7 +6,6 @@ def main():
     selection_sort(list_one)
     for i in range(len(list_one)):
         print ("%d" %list_one[i])
-
 
 if __name__ == '__main__':
     main()

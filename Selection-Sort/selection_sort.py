@@ -1,13 +1,12 @@
 # Best Case : O(n) ^2 even if list is sorted, we must still check each element with 2 inner loops
 # Worst Case : O(n) ^ 2 since we must traverse the entire list with 2 inner loops
 def selection_sort(arr):
-''' Sort the elements in arr from left to right'''
+    ''' Sort the elements in arr from left to right'''
 
-    for i in range(len(arr)):
+    for i in range(0, len(arr)):
         for j in range(i+1, len(arr)):
             if arr[j] < arr[i]:
-                arr[i], arr[j] = arr[j], arr[i]
-
+                arr[i], arr[j] = arr[j],arr[i]
 
 '''
         ALGORITHM:

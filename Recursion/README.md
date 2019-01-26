@@ -1,14 +1,12 @@
 # Tips for solving coding problems using Recursion
 
-You know you must use recursion when...
+## Identifying a recursive problem
 
   - You must "try" every possibility (e.g: permutations)
   - When it deals with recursive objects(Graphs, Trees)
  
  
-
-
-The two common ways of figuring out the recursive case are :
+## Solving the problem
 
 ### Top-down
 
@@ -19,3 +17,7 @@ The two common ways of figuring out the recursive case are :
 
 * Start from the base case and solve incrementally harder problems
 * Figure out how you can use an easier instantiation of the problem to solve the current, harder problem (Ex: using the permutations of [1, 2] to generate the permutations of [1, 2, 3])
+
+
+## Analazying the Algorithm
+

@@ -6,8 +6,8 @@ def merge_sort(arr):
         left_half = arr[:middle_point]
         right_half = arr[middle_point:]
 
-        merge_sort(left_side) # sort the left half of the array
-        merge_sort(right_side) # sort the right half of the array
+        merge_sort(left_half) # sort the left half of the array
+        merge_sort(right_half) # sort the right half of the array
 
         left_index = right_index = current_index = 0
         while left_index < len(left_half) and right_half < len(right_half):
@@ -36,3 +36,9 @@ def merge_sort(arr):
                     Merge left and right side in sorted order
 
             '''
+
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()
